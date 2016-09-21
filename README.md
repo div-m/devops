@@ -8,10 +8,10 @@ Usage:
 
 1) Login to mongo inside the container and run the below command:
 
-export mongo <DockerIP>:<Port> < dbauto.js
+export mongo DockerIP:Port < dbauto.js
 
 2) Export MONGODB in auth_service and data_service
 
 3) Start the Docker Container
 
-4) Verify <DockerIP>/api/auth works.
+4) Verify DockerIP/api/auth works.
